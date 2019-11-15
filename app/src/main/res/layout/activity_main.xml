@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.apps2u.stickyheadercursorrecycleradapter.MainActivity">
+    tools:context="com.appro.stickyheadercursorrecycleradapter.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
@@ -31,7 +31,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <com.apps2u.happiestrecyclerview.RecyclerView
+    <com.appro.advancedrecyclerview.RecyclerView
         android:layout_below="@+id/appbar"
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
         app:isRefresh = "true"
         app:isLoadMore = "true" >
 
-    </com.apps2u.happiestrecyclerview.RecyclerView>
+    </com.appro.advancedrecyclerview.RecyclerView>
 
 
 
