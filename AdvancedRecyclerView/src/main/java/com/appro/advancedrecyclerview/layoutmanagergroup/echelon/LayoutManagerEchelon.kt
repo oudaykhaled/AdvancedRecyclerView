@@ -31,8 +31,8 @@ class LayoutManagerEchelon(private val mContext: Context) : RecyclerView.LayoutM
         get() = width - paddingLeft - paddingRight
 
     init {
-        mItemViewWidth = (horizontalSpace * 0.87f).toInt()//item的宽
-        mItemViewHeight = (mItemViewWidth * 1.46f).toInt()//item的高
+        mItemViewWidth = (horizontalSpace * 0.87f).toInt()
+        mItemViewHeight = (mItemViewWidth * 1.46f).toInt()
     }
 
     override fun generateDefaultLayoutParams(): RecyclerView.LayoutParams {

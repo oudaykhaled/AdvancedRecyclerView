@@ -75,10 +75,8 @@ class RecyclerView<T : androidx.recyclerview.widget.RecyclerView.Adapter<*>>(con
                 if (swipeListener != null) {
                     val cd = ConnectionDetector(context)
                     if (cd.isConnectingToInternet) {
-                        //                        mSwipeRefreshLayout.setRefreshing(true);
                         swipeListener!!.loadMore(current_page)
                     } else {
-                        //                        mSwipeRefreshLayout.setRefreshing(false);
                         swipeListener!!.onSwipeConnectionError()
 
                     }

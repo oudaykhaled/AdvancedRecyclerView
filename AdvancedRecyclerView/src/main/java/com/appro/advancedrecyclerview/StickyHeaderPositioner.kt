@@ -298,7 +298,6 @@ internal class StickyHeaderPositioner(private val recyclerView: androidx.recycle
     private fun elevateHeader() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             if (currentHeader!!.tag != null) {
-                // Already elevated, bail out
                 return
             }
             currentHeader!!.tag = true

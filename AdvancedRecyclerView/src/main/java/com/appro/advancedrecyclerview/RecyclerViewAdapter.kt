@@ -235,11 +235,19 @@ abstract class RecyclerViewAdapter<VH : ViewHolder, T : Any> : androidx.recycler
         } else 0
     }
 
+    /**
+     * Returns true to attach last header
+     */
     abstract fun attachAlwaysLastHeader(): Boolean
 
+    /**
+     * Define the logic behind the section condistion
+     */
     abstract fun getSectionCondition(position: Int): String
-    //    public abstract StickyLayoutManager getStickyLayoutManager();
 
+    /**
+     * Define the logic behind the item type
+     */
     abstract fun getItemType(postion: Int): Int
 
     private fun calculateSectionHeaders() {

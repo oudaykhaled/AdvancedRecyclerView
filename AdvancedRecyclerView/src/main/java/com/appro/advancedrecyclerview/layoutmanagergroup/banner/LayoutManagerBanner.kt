@@ -61,7 +61,6 @@ class LayoutManagerBanner : LinearLayoutManager {
 
     override fun smoothScrollToPosition(recyclerView: RecyclerView, state: RecyclerView.State?, position: Int) {
         val smoothScroller = object : LinearSmoothScroller(recyclerView.context) {
-            // 返回：滑过1px时经历的时间(ms)。
             override fun calculateSpeedPerPixel(displayMetrics: DisplayMetrics): Float {
                 return mTimeSmooth / displayMetrics.densityDpi
             }
@@ -74,7 +73,7 @@ class LayoutManagerBanner : LinearLayoutManager {
 
     override fun onScrollStateChanged(state: Int) {
         super.onScrollStateChanged(state)
-        if (state == RecyclerView.SCROLL_STATE_IDLE) {//滑动停止
+        if (state == RecyclerView.SCROLL_STATE_IDLE) {
             if (mLinearSnapHelper != null) {
 
                 val view = mLinearSnapHelper!!.findSnapView(this)
@@ -90,7 +89,7 @@ class LayoutManagerBanner : LinearLayoutManager {
                 mHandler!!.sendMessageDelayed(msg, mTimeDelayed)
 
             }
-        } else if (state == SCROLL_STATE_DRAGGING) {//拖动
+        } else if (state == SCROLL_STATE_DRAGGING) {
             mHandler!!.setSendMsg(false)
         }
     }
