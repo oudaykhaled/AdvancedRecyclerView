@@ -108,7 +108,6 @@ abstract class RecyclerViewAdapter<VH : ViewHolder, T : Any> : androidx.recycler
     private val mActionModeCallback = object : ActionMode.Callback {
 
         override fun onCreateActionMode(mode: ActionMode, menu: Menu): Boolean {
-            // Inflate a menu resource providing context menu items
             val inflater = mode.menuInflater
             if (menuID != 0)
                 inflater.inflate(menuID, menu)
@@ -136,44 +135,13 @@ abstract class RecyclerViewAdapter<VH : ViewHolder, T : Any> : androidx.recycler
     }
 
 
-    //////////////////////////////////////////////////////////////////////////////////////////////
-
     override val adapterData: SparseArray<String>?
         get() = if (mSectionsIndexer!!.size() == 0) null else mSectionsIndexer
-
-    //    public AdsHolder createADSViewHolder(RecyclerView.ViewHolder viewHolder, int position) {
-    //        if (position < 0)
-    //            return null;
-    //
-    //        AdsHolder adsHolder = (AdsHolder) viewHolder;
-    //        if(adsHolder.relativeLayout.getChildCount() == 0){
-    //            PublisherAdView adView = new PublisherAdView(mContext);
-    //            adView.setAdSizes(nativeSize);
-    //            adView.setAdUnitId(adsID);
-    //
-    //            adView.setAppEventListener(new AppEventListener() {
-    //                @Override
-    //                public void onAppEvent(String s, String s1) {
-    ////                    handleNativeAdClick(context, s, s1);
-    //                }
-    //            });
-    //
-    //            PublisherAdRequest.Builder adRequest = new PublisherAdRequest.Builder();
-    //
-    //            adView.loadAd(adRequest.build());
-    //            adsHolder.relativeLayout.addView(adView);
-    //        }
-    //
-    //        return adsHolder;
-    //    }
-
 
     /**
      * Change the underlying cursor to a new cursor. If there is an existing cursor it will be
      * closed.
      */
-
-
     val lastHeaderData: String
         get() = mSectionsIndexer!!.get(mSectionsIndexer!!.keyAt(mSectionsIndexer!!.size() - 1))
 
@@ -531,7 +499,7 @@ abstract class RecyclerViewAdapter<VH : ViewHolder, T : Any> : androidx.recycler
 
     }
 
-    abstract fun onCreateViewHolders(parent: ViewGroup, viewType: Int): ViewHolder
+    abstract fun onCreateViewHolders(parent: ViewGroup, viewType: Int): ViewHolder?
 
     @Deprecated("")
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {

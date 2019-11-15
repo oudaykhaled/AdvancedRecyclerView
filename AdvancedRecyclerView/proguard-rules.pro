@@ -20,7 +20,7 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
-    -keep public class com.apps2u.happiestrecyclerview.**{
+    -keep public class com.appro.advancedrecyclerview.**{
      public <methods>;
     }
     -keep public class com.android.support.*
