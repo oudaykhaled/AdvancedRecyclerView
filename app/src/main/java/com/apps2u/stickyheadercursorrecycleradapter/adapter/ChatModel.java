@@ -1,10 +1,6 @@
 package com.apps2u.stickyheadercursorrecycleradapter.adapter;
 
 
-import android.webkit.URLUtil;
-
-
-
 /**
  * Created by Ouday Khaled on 2/20/2018.
  */

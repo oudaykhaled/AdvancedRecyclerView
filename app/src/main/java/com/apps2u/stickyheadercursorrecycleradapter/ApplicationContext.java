@@ -1,11 +1,7 @@
 package com.apps2u.stickyheadercursorrecycleradapter;
 
 import android.app.Application;
-import android.content.ComponentName;
 import android.content.Context;
-import android.content.ServiceConnection;
-import android.os.IBinder;
-import android.util.Log;
 
 
 

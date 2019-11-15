@@ -1,19 +1,15 @@
 package com.apps2u.happiestrecyclerview.swipe.implments
 
-import androidx.recyclerview.widget.RecyclerView
+
 import android.view.View
 import android.widget.BaseAdapter
-
-
+import androidx.recyclerview.widget.RecyclerView
 import com.apps2u.happiestrecyclerview.swipe.SimpleSwipeListener
 import com.apps2u.happiestrecyclerview.swipe.SwipeLayout
 import com.apps2u.happiestrecyclerview.swipe.interfaces.SwipeAdapterInterface
 import com.apps2u.happiestrecyclerview.swipe.interfaces.SwipeItemMangerInterface
 import com.apps2u.happiestrecyclerview.swipe.util.Attributes
-
-import java.util.ArrayList
-import java.util.Arrays
-import java.util.HashSet
+import java.util.*
 
 /**
  * Created by Ouday Khaled on 5/23/2018.

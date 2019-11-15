@@ -1,8 +1,6 @@
 package com.apps2u.happiestrecyclerview
 
 import android.content.Context
-import android.content.Intent
-import android.text.TextUtils
 
 
 object AdHelper {

@@ -1,18 +1,16 @@
 package com.apps2u.happiestrecyclerview.swipe.adapters
 
+
 import android.content.Context
 import android.database.Cursor
 import android.view.View
 import android.view.ViewGroup
-
-
+import androidx.cursoradapter.widget.SimpleCursorAdapter
 import com.apps2u.happiestrecyclerview.swipe.SwipeLayout
 import com.apps2u.happiestrecyclerview.swipe.implments.SwipeItemAdapterMangerImpl
 import com.apps2u.happiestrecyclerview.swipe.interfaces.SwipeAdapterInterface
 import com.apps2u.happiestrecyclerview.swipe.interfaces.SwipeItemMangerInterface
 import com.apps2u.happiestrecyclerview.swipe.util.Attributes
-
-import androidx.cursoradapter.widget.SimpleCursorAdapter
 
 /**
  * Created by Ouday Khaled on 5/23/2018.

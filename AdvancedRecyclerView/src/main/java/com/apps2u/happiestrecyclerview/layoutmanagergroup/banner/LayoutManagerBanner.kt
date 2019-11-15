@@ -1,33 +1,16 @@
 package com.apps2u.happiestrecyclerview.layoutmanagergroup.banner
 
-import android.animation.ValueAnimator
 import android.content.Context
 import android.os.Handler
 import android.os.Message
-import android.os.Parcel
-import android.os.Parcelable
+import android.util.DisplayMetrics
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSmoothScroller
 import androidx.recyclerview.widget.LinearSnapHelper
-import androidx.recyclerview.widget.OrientationHelper
 import androidx.recyclerview.widget.RecyclerView
-import android.util.DisplayMetrics
-import android.util.Log
-import android.util.SparseArray
-import android.view.MotionEvent
-import android.view.View
-import android.view.ViewGroup
-import android.view.animation.Interpolator
-import android.view.animation.LinearInterpolator
-import android.widget.RelativeLayout
-
-import java.lang.ref.WeakReference
-import java.util.ArrayList
-
-import androidx.recyclerview.widget.RecyclerView.NO_POSITION
 import androidx.recyclerview.widget.RecyclerView.SCROLL_STATE_DRAGGING
-import androidx.recyclerview.widget.RecyclerView.SCROLL_STATE_SETTLING
-import android.view.View.DRAG_FLAG_GLOBAL
+import java.lang.ref.WeakReference
 
 /**
  * Created by 钉某人

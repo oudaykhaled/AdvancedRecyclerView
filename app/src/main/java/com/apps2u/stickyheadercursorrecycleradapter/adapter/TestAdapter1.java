@@ -10,8 +10,6 @@ import com.apps2u.happiestrecyclerview.RecyclerViewAdapter;
 import com.apps2u.happiestrecyclerview.ViewHolder;
 import com.apps2u.stickyheadercursorrecycleradapter.R;
 
-import java.util.ArrayList;
-
 /**
  * Created by Ouday Khaled on 5/18/2018.
  */

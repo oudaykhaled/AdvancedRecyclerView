@@ -1,11 +1,9 @@
 package com.apps2u.happiestrecyclerview
 
 import android.content.Context
-import androidx.recyclerview.widget.*
 import android.view.View
-
-import java.util.ArrayList
-import java.util.LinkedHashMap
+import androidx.recyclerview.widget.LinearLayoutManager
+import java.util.*
 
 internal class StickyLayoutManager(context: Context, orientation: Int, reverseLayout: Boolean, headerHandler: StickyHeaderHandler) : LinearLayoutManager(context, orientation, reverseLayout) {
 

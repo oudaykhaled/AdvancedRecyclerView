@@ -1,8 +1,7 @@
 package com.apps2u.happiestrecyclerview.swipe.implments
 
-import androidx.recyclerview.widget.RecyclerView
 import android.view.View
-
+import androidx.recyclerview.widget.RecyclerView
 import com.apps2u.happiestrecyclerview.swipe.SwipeLayout
 
 

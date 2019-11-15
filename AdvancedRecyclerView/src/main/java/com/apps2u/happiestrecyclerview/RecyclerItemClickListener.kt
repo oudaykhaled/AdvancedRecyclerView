@@ -1,11 +1,10 @@
 package com.apps2u.happiestrecyclerview
 
 import android.content.Context
-import androidx.recyclerview.widget.*
-import androidx.recyclerview.widget.RecyclerView
 import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.View
+import androidx.recyclerview.widget.RecyclerView
 
 /**
  * Created by Jaison on 21/10/15.

@@ -1,6 +1,5 @@
 package com.apps2u.happiestrecyclerview
 
-import androidx.recyclerview.widget.*
 import android.view.ViewGroup
 
 internal interface ViewRetriever {

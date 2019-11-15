@@ -1,10 +1,9 @@
 package com.apps2u.happiestrecyclerview.layoutmanagergroup.echelon
 
 import android.content.Context
-import androidx.recyclerview.widget.RecyclerView
 import android.view.View
-
-import java.util.ArrayList
+import androidx.recyclerview.widget.RecyclerView
+import java.util.*
 
 /**
  * Created by 钉某人

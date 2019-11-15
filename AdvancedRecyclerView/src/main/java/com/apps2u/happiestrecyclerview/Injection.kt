@@ -1,12 +1,7 @@
 package com.apps2u.happiestrecyclerview
 
 import android.view.ViewGroup
-
-import com.apps2u.happiestrecyclerview.RecyclerView
-import com.apps2u.happiestrecyclerview.ViewHolder
-
-import java.util.ArrayList
-import java.util.HashMap
+import java.util.*
 
 abstract class Injection(viewType: ArrayList<Int>, val starting: Int, val concurrency: Int, tag: String) {
     var tag: String

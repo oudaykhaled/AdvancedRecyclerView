@@ -1,12 +1,12 @@
 package com.apps2u.happiestrecyclerview.layoutmanagergroup.slide
 
 
-import androidx.core.view.MotionEventCompat
-import androidx.recyclerview.widget.ItemTouchHelper
-import androidx.recyclerview.widget.RecyclerView
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.MotionEventCompat
+import androidx.recyclerview.widget.ItemTouchHelper
+import androidx.recyclerview.widget.RecyclerView
 
 /**
  * Created by 钉某人

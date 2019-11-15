@@ -2,13 +2,13 @@ package com.apps2u.happiestrecyclerview
 
 import android.content.Context
 import android.os.Build
-import androidx.annotation.Px
-import androidx.annotation.VisibleForTesting
-import androidx.recyclerview.widget.*
 import android.view.View
 import android.view.ViewGroup
 import android.view.ViewGroup.MarginLayoutParams
 import android.view.ViewTreeObserver
+import androidx.annotation.Px
+import androidx.annotation.VisibleForTesting
+import androidx.recyclerview.widget.LinearLayoutManager
 
 internal class StickyHeaderPositioner(private val recyclerView: androidx.recyclerview.widget.RecyclerView) {
     private val checkMargins: Boolean

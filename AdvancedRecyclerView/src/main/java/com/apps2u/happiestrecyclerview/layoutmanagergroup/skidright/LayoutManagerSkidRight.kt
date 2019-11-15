@@ -1,19 +1,10 @@
 package com.apps2u.happiestrecyclerview.layoutmanagergroup.skidright
 
-import android.graphics.PointF
-import android.os.Parcel
-import android.os.Parcelable
-
-import androidx.core.view.ViewCompat
-import androidx.recyclerview.widget.LinearSmoothScroller
-import androidx.recyclerview.widget.RecyclerView
 import android.view.View
-import android.view.animation.DecelerateInterpolator
-import android.view.animation.Interpolator
-
+import androidx.core.view.ViewCompat
+import androidx.recyclerview.widget.RecyclerView
 import com.apps2u.happiestrecyclerview.layoutmanagergroup.echelon.ItemViewInfo
-
-import java.util.ArrayList
+import java.util.*
 
 /**
  * Created by 钉某人

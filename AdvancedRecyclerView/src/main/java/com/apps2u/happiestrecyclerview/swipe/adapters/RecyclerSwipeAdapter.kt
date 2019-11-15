@@ -1,8 +1,7 @@
 package com.apps2u.happiestrecyclerview.swipe.adapters
 
-import androidx.recyclerview.widget.RecyclerView
 import android.view.ViewGroup
-
+import androidx.recyclerview.widget.RecyclerView
 import com.apps2u.happiestrecyclerview.swipe.SwipeLayout
 import com.apps2u.happiestrecyclerview.swipe.implments.SwipeItemRecyclerMangerImpl
 import com.apps2u.happiestrecyclerview.swipe.interfaces.SwipeAdapterInterface

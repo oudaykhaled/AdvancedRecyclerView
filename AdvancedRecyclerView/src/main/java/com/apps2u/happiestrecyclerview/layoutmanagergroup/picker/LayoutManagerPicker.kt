@@ -1,11 +1,10 @@
 package com.apps2u.happiestrecyclerview.layoutmanagergroup.picker
 
 import android.content.Context
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearSnapHelper
 import androidx.recyclerview.widget.RecyclerView
-import android.util.Log
-import android.view.View
 
 /**
  * Created by 钉某人

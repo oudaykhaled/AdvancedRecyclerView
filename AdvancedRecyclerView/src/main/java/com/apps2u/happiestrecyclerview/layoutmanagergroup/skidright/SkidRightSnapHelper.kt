@@ -16,9 +16,9 @@
 
 package com.apps2u.happiestrecyclerview.layoutmanagergroup.skidright
 
+import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper
-import android.view.View
 
 /**
  * Created by 钉某人

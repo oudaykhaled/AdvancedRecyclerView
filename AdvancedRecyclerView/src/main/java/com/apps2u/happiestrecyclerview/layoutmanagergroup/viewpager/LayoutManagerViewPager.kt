@@ -1,13 +1,10 @@
 package com.apps2u.happiestrecyclerview.layoutmanagergroup.viewpager
 
 import android.content.Context
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.RecyclerView
-import android.util.Log
-import android.view.Display
-import android.view.View
-import android.view.ViewTreeObserver
 
 /**
  * Created by 钉某人

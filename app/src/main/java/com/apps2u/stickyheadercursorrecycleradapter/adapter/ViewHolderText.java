@@ -3,13 +3,12 @@ package com.apps2u.stickyheadercursorrecycleradapter.adapter;
 import android.database.Cursor;
 import android.view.View;
 
-import com.apps2u.happiestrecyclerview.RecyclerView;
+import androidx.appcompat.widget.AppCompatTextView;
+
 import com.apps2u.happiestrecyclerview.ViewHolder;
 import com.apps2u.stickyheadercursorrecycleradapter.MainActivity;
 import com.apps2u.stickyheadercursorrecycleradapter.R;
 import com.apps2u.stickyheadercursorrecycleradapter.provider.ChatContract;
-
-import androidx.appcompat.widget.AppCompatTextView;
 
 
 /**
