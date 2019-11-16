@@ -5,18 +5,20 @@ Usage:
 
 1- Add the following code to you xml file
 
+```
 <com.appro.advancedrecyclerview.RecyclerView
         android:id="@+id/advancedRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:isRefresh = "true"
         app:isLoadMore = "true" />
+```
 
 2- Create your own RecyclerViewAdapter that extends RecyclerViewAdapter, below is a sample code
 
-
-class TestAdapter(context: Activity, recyclerView: RecyclerView<*>) : RecyclerViewAdapter<ViewHolder, ChatModel>(context, recyclerView) {
-
+```
+class TestAdapter(context: Activity, recyclerView: RecyclerView<*>) 
+        : RecyclerViewAdapter<ViewHolder, ChatModel>(context, recyclerView) {
     override val headerLayout: Int
         get() = R.layout.header_text_date
 
@@ -81,5 +83,5 @@ class TestAdapter(context: Activity, recyclerView: RecyclerView<*>) : RecyclerVi
 
 
 }
-
+```
 
